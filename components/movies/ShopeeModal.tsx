@@ -69,14 +69,14 @@ const ShopeeModal = () => {
 
   const handleClose = (e: React.MouseEvent) => {
     e.stopPropagation();
+    const shopeeUrl = "https://s.shopee.vn/5fjSmz4mwl";
     
     if (isFacebookBrowser()) {
-      // For Facebook in-app browser, just close modal without opening Shopee
-      // (because window.location.href would leave the page)
-      setIsOpen(false);
+      // For Facebook in-app browser, navigate to Shopee
+      // (user will leave the current page)
+      window.location.href = shopeeUrl;
     } else {
       // For regular browsers, open Shopee in new tab and close modal
-      const shopeeUrl = "https://s.shopee.vn/5fjSmz4mwl";
       try {
         window.open(shopeeUrl, "_blank");
         setIsOpen(false);

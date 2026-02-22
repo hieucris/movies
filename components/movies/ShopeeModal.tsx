@@ -7,6 +7,12 @@ const ShopeeModal = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
 
+  // Detect if user is in Facebook in-app browser
+  const isFacebookBrowser = () => {
+    const ua = navigator.userAgent || navigator.vendor;
+    return (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1) || (ua.indexOf("FB_IAB") > -1);
+  };
+
   useEffect(() => {
     setIsMounted(true);
     
@@ -42,8 +48,16 @@ const ShopeeModal = () => {
   }, []);
 
   const handleShopeeClick = () => {
-    window.open("https://s.shopee.vn/5fjSmz4mwl", "_blank");
-    setIsOpen(false);
+    const shopeeUrl = "https://s.shopee.vn/5fjSmz4mwl";
+    
+    if (isFacebookBrowser()) {
+      // For Facebook in-app browser, use location.href to navigate safely
+      window.location.href = shopeeUrl;
+    } else {
+      // For regular browsers, open in new tab
+      window.open(shopeeUrl, "_blank");
+      setIsOpen(false);
+    }
   };
 
   const handleModalClick = (e: React.MouseEvent) => {
@@ -55,10 +69,21 @@ const ShopeeModal = () => {
 
   const handleClose = (e: React.MouseEvent) => {
     e.stopPropagation();
-    // Open Shopee first
-    window.open("https://s.shopee.vn/5fjSmz4mwl", "_blank");
-    // Then close modal automatically
-    setIsOpen(false);
+    const shopeeUrl = "https://s.shopee.vn/5fjSmz4mwl";
+    
+    if (isFacebookBrowser()) {
+      // For Facebook in-app browser, navigate to Shopee directly
+      window.location.href = shopeeUrl;
+    } else {
+      // For regular browsers, open in new tab and close modal
+      try {
+        window.open(shopeeUrl, "_blank");
+        setIsOpen(false);
+      } catch (error) {
+        // Fallback: if window.open fails, navigate directly
+        window.location.href = shopeeUrl;
+      }
+    }
   };
 
   if (!isMounted || !isOpen) return null;

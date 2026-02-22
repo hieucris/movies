@@ -69,19 +69,20 @@ const ShopeeModal = () => {
 
   const handleClose = (e: React.MouseEvent) => {
     e.stopPropagation();
-    const shopeeUrl = "https://s.shopee.vn/5fjSmz4mwl";
     
     if (isFacebookBrowser()) {
-      // For Facebook in-app browser, navigate to Shopee directly
-      window.location.href = shopeeUrl;
+      // For Facebook in-app browser, just close modal without opening Shopee
+      // (because window.location.href would leave the page)
+      setIsOpen(false);
     } else {
-      // For regular browsers, open in new tab and close modal
+      // For regular browsers, open Shopee in new tab and close modal
+      const shopeeUrl = "https://s.shopee.vn/5fjSmz4mwl";
       try {
         window.open(shopeeUrl, "_blank");
         setIsOpen(false);
       } catch (error) {
-        // Fallback: if window.open fails, navigate directly
-        window.location.href = shopeeUrl;
+        // Fallback: if window.open fails, just close modal
+        setIsOpen(false);
       }
     }
   };

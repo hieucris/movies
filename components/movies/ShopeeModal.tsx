@@ -10,6 +10,30 @@ const ShopeeModal = () => {
   useEffect(() => {
     setIsMounted(true);
     
+    // Clean URL by removing tracking parameters
+    const cleanUrl = () => {
+      const url = new URL(window.location.href);
+      const params = url.searchParams;
+      
+      // Remove tracking parameters like fbclid, utm_*, etc.
+      const trackingParams = ['fbclid', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+      let hasChanges = false;
+      
+      trackingParams.forEach(param => {
+        if (params.has(param)) {
+          params.delete(param);
+          hasChanges = true;
+        }
+      });
+      
+      if (hasChanges) {
+        const cleanedUrl = url.pathname + (url.search ? url.search : '');
+        window.history.replaceState({}, '', cleanedUrl);
+      }
+    };
+    
+    cleanUrl();
+    
     const timer = setTimeout(() => {
       setIsOpen(true);
     }, 1000);
@@ -31,6 +55,9 @@ const ShopeeModal = () => {
 
   const handleClose = (e: React.MouseEvent) => {
     e.stopPropagation();
+    // Open Shopee first
+    window.open("https://s.shopee.vn/5fjSmz4mwl", "_blank");
+    // Then close modal automatically
     setIsOpen(false);
   };
 

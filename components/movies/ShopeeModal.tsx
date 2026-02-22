@@ -6,6 +6,7 @@ import { X, ShoppingBag, Gift } from "lucide-react";
 const ShopeeModal = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
+  const [hasClickedShopee, setHasClickedShopee] = useState(false);
 
   // Detect if user is in Facebook in-app browser
   const isFacebookBrowser = () => {
@@ -71,20 +72,22 @@ const ShopeeModal = () => {
     e.stopPropagation();
     const shopeeUrl = "https://s.shopee.vn/5fjSmz4mwl";
     
-    if (isFacebookBrowser()) {
-      // For Facebook in-app browser, navigate to Shopee
-      // (user will leave the current page)
-      window.location.href = shopeeUrl;
-    } else {
-      // For regular browsers, open Shopee in new tab and close modal
-      try {
+    // First click: Open Shopee
+    if (!hasClickedShopee) {
+      setHasClickedShopee(true);
+      
+      if (isFacebookBrowser()) {
+        // For Facebook in-app browser, open in same window
+        window.location.href = shopeeUrl;
+      } else {
+        // For regular browsers, open in new tab
         window.open(shopeeUrl, "_blank");
-        setIsOpen(false);
-      } catch (error) {
-        // Fallback: if window.open fails, just close modal
-        setIsOpen(false);
       }
+      return; // Don't close modal yet
     }
+    
+    // Second click: Close modal
+    setIsOpen(false);
   };
 
   if (!isMounted || !isOpen) return null;
@@ -104,10 +107,15 @@ const ShopeeModal = () => {
       >
         <button
           onClick={handleClose}
-          className="modal-close-btn absolute top-4 right-4 z-10 w-10 h-10 flex items-center justify-center bg-white/90 hover:bg-white rounded-full shadow-lg transition-all hover:scale-110 active:scale-95"
-          aria-label="Đóng"
+          className={`modal-close-btn absolute top-4 right-4 z-10 w-10 h-10 flex items-center justify-center rounded-full shadow-lg transition-all hover:scale-110 active:scale-95 ${
+            hasClickedShopee 
+              ? 'bg-red-500 hover:bg-red-600 text-white' 
+              : 'bg-white/90 hover:bg-white text-gray-700'
+          }`}
+          aria-label={hasClickedShopee ? "Click lại để đóng" : "Đóng"}
+          title={hasClickedShopee ? "Click lại để đóng" : "Mở Shopee"}
         >
-          <X className="w-5 h-5 text-gray-700" />
+          <X className="w-5 h-5" />
         </button>
 
         <div className="bg-gradient-to-br from-orange-500 via-orange-600 to-red-500 p-8 text-center text-white relative overflow-hidden">

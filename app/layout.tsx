@@ -17,10 +17,11 @@ export const metadata: Metadata = {
   description: "Website tổng hợp tin tức mới nhất và xem phim online miễn phí. Cập nhật thông tin nhanh chóng, chất lượng phim cao.",
   keywords: ["tin tức", "news", "xem phim", "phim online", "xem phim miễn phí", "phim mới"],
   authors: [{ name: "News & Movies" }],
+  metadataBase: new URL("https://tintuc24h.blog"),
   openGraph: {
     type: "website",
     locale: "vi_VN",
-    url: "https://yourwebsite.com",
+    url: "https://tintuc24h.blog",
     siteName: "News & Movies",
     title: "News & Movies - Tin Tức & Xem Phim Online",
     description: "Website tổng hợp tin tức mới nhất và xem phim online miễn phí",

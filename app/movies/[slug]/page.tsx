@@ -18,13 +18,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
   
+  const movieUrl = `https://tintuc24h.blog/movies/${movie.slug}`;
+  
   return {
     title: `${movie.title} - Xem Phim Online`,
     description: movie.description,
     openGraph: {
       title: `${movie.title} - Xem Phim Online`,
       description: movie.description,
-      images: [movie.poster],
+      url: movieUrl,
+      siteName: "News & Movies",
+      type: "video.movie",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${movie.title} - Xem Phim Online`,
+      description: movie.description,
     },
   };
 }

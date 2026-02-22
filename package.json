@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "npx next build",
+    "start": "npx next start",
+    "lint": "next lint",
+    "postinstall": "chmod -R +x node_modules/.bin"
   },
   "dependencies": {
     "next": "^15.0.3",

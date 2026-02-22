@@ -31,7 +31,7 @@ const ShopeeModal = () => {
 
   const handleClose = (e: React.MouseEvent) => {
     e.stopPropagation();
-    handleShopeeClick();
+    setIsOpen(false);
   };
 
   if (!isMounted || !isOpen) return null;

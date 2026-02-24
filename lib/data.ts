@@ -23,6 +23,7 @@ export interface Movie {
   genres: string[];
   facebookVideoEmbed: string;
   trending?: boolean;
+  seriesName?: string;
 }
 
 const newsArticles: NewsArticle[] = [
@@ -170,6 +171,7 @@ const movies: Movie[] = [
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2346626422513426%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
     trending: true,
+    seriesName: "Buổi Phát Trực Tiếp",
   },
   {
     id: 2,
@@ -185,6 +187,7 @@ const movies: Movie[] = [
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F785877933960184%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
     trending: true,
+    seriesName: "Buổi Phát Trực Tiếp",
   },
   {
     id: 3,
@@ -200,6 +203,7 @@ const movies: Movie[] = [
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F856093004069516%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
     trending: true,
+    seriesName: "Buổi Phát Trực Tiếp",
   },
   {
     id: 4,
@@ -215,6 +219,7 @@ const movies: Movie[] = [
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1452017683214918%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
     trending: true,
+    seriesName: "Buổi Phát Trực Tiếp",
   },
   {
     id: 5,
@@ -230,6 +235,7 @@ const movies: Movie[] = [
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1622388495458700%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
     trending: true,
+    seriesName: "Buổi Phát Trực Tiếp",
   },
   {
     id: 6,
@@ -245,6 +251,7 @@ const movies: Movie[] = [
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1302369248394964%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
     trending: true,
+    seriesName: "Buổi Phát Trực Tiếp",
   },
   {
     id: 7,
@@ -260,6 +267,7 @@ const movies: Movie[] = [
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1245212107100829%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
     trending: true,
+    seriesName: "Đứa Bé Bí Ẩn",
   },
   {
     id: 8,
@@ -275,6 +283,7 @@ const movies: Movie[] = [
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F4410129289229984%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
     trending: true,
+    seriesName: "Đứa Bé Bí Ẩn",
   },
   {
     id: 9,
@@ -290,6 +299,7 @@ const movies: Movie[] = [
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F958577576606056%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
     trending: true,
+    seriesName: "Đứa Bé Bí Ẩn",
   },
   {
     id: 10,
@@ -305,11 +315,12 @@ const movies: Movie[] = [
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1200508255204023%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
     trending: true,
+    seriesName: "Đứa Bé Bí Ẩn",
   },
   {
     id: 11,
     slug: "dua-be-bi-an-tap-5",
-    title: "Đứa Bé Bí ẨN - Tập 5",
+    title: "Đứa Bé Bí Ẩn - Tập 5",
     description:
       "Câu chuyện về đứa bé bí ẩn, một đứa trẻ được tìm thấy trong rừng vào năm 1917. Phần 5.",
     poster:
@@ -320,11 +331,12 @@ const movies: Movie[] = [
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F959358140381147%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
     trending: true,
+    seriesName: "Đứa Bé Bí Ẩn",
   },
   {
     id: 12,
     slug: "dua-be-bi-an-tap-6",
-    title: "Đứa Bé Bí ẨN - Tập 6",
+    title: "Đứa Bé Bí Ẩn - Tập 6",
     description:
       "Câu chuyện về đứa bé bí ẩn, một đứa trẻ được tìm thấy trong rừng vào năm 1917. Phần cuối.",
     poster:
@@ -335,11 +347,12 @@ const movies: Movie[] = [
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F3971830252960612%2F&show_text=false&width=267&t=0&adapt_container_width=true" width="100%" height="476" style="border:none;overflow:hidden;max-width:100%" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share; fullscreen" allowFullScreen="true"></iframe>',
     trending: true,
+    seriesName: "Đứa Bé Bí Ẩn",
   },
   {
     id: 13,
     slug: "dua-be-bi-an-tap-7",
-    title: "Đứa Bé Bí ẨN - Tập 7",
+    title: "Đứa Bé Bí Ẩn - Tập 7",
     description:
       "Câu chuyện về đứa bé bí ẩn, một đứa trẻ được tìm thấy trong rừng vào năm 1917. Phần 7.",
     poster:
@@ -350,6 +363,23 @@ const movies: Movie[] = [
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1286025120011132%2F&show_text=false&width=267&t=0&adapt_container_width=true" width="100%" height="476" style="border:none;overflow:hidden;max-width:100%" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share; fullscreen" allowFullScreen="true"></iframe>',
     trending: true,
+    seriesName: "Đứa Bé Bí Ẩn",
+  },
+  {
+    id: 14,
+    slug: "dua-be-bi-an-tap-tap-cuoi",
+    title: "Đứa Bé Bí Ẩn - Tập Cuối",
+    description:
+      "Câu chuyện về đứa bé bí ẩn, một đứa trẻ được tìm thấy trong rừng vào năm 1917. Phần cuối.",
+    poster:
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1282376020529738%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Đứa Bé Bí Ẩn",
   },
 ];
 
@@ -366,3 +396,7 @@ export const getFeaturedMovies = () => movies.filter((movie) => movie.trending);
 export const getAllMovies = () => movies;
 export const getMovie = (slug: string) =>
   movies.find((movie) => movie.slug === slug);
+export const getSeriesEpisodes = (seriesName: string, currentSlug?: string) =>
+  movies.filter(
+    (movie) => movie.seriesName === seriesName && movie.slug !== currentSlug,
+  );

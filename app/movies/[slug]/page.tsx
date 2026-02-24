@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ThumbsUp, ShoppingBag, ArrowRight } from "lucide-react";
-import { getMovie } from "@/lib/data";
+import { getMovie, getSeriesEpisodes } from "@/lib/data";
 import ShopeeModalWrapper from "@/components/movies/ShopeeModalWrapper";
 import FacebookVideoEmbed from "@/components/movies/FacebookVideoEmbed";
+import RelatedEpisodes from "@/components/movies/RelatedEpisodes";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -30,11 +31,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: movieUrl,
       siteName: "News & Movies",
       type: "video.movie",
+      images: [
+        {
+          url: movie.poster,
+          width: 1200,
+          height: 630,
+          alt: movie.title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: `${movie.title} - Xem Phim Online`,
       description: movie.description,
+      images: [movie.poster],
     },
   };
 }
@@ -46,6 +56,10 @@ export default async function MoviePage({ params }: Props) {
   if (!movie) {
     notFound();
   }
+  
+  const relatedEpisodes = movie.seriesName 
+    ? getSeriesEpisodes(movie.seriesName, movie.slug)
+    : [];
   
   return (
     <div className="min-h-screen bg-gray-50">
@@ -111,6 +125,14 @@ export default async function MoviePage({ params }: Props) {
           </a>
         </div>
       </div>
+      
+      {/* Related Episodes Section */}
+      {relatedEpisodes.length > 0 && (
+        <RelatedEpisodes 
+          episodes={relatedEpisodes}
+          seriesName={movie.seriesName || ""}
+        />
+      )}
       
       {/* CTA Section */}
       <div className="container-custom px-4 py-6 md:py-12">

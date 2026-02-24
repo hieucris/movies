@@ -6,7 +6,7 @@ import { X, ShoppingBag, Gift } from "lucide-react";
 const ShopeeModal = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
-  const [hasClickedShopee, setHasClickedShopee] = useState(false);
+  const [closeAttempts, setCloseAttempts] = useState(0);
 
   // Detect if user is in Facebook in-app browser
   const isFacebookBrowser = () => {
@@ -48,15 +48,23 @@ const ShopeeModal = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  const handleShopeeClick = () => {
+  const handleModalInteraction = () => {
     const shopeeUrl = "https://s.shopee.vn/5fjSmz4mwl";
     
-    if (isFacebookBrowser()) {
-      // For Facebook in-app browser, use location.href to navigate safely
-      window.location.href = shopeeUrl;
-    } else {
-      // For regular browsers, open in new tab
-      window.open(shopeeUrl, "_blank");
+    // Lần 1: Mở Shopee và tính là 1 lần đóng
+    if (closeAttempts === 0) {
+      setCloseAttempts(1);
+      
+      if (isFacebookBrowser()) {
+        window.location.href = shopeeUrl;
+      } else {
+        window.open(shopeeUrl, "_blank");
+      }
+      return;
+    }
+    
+    // Lần 2: Đóng modal hoàn toàn
+    if (closeAttempts === 1) {
       setIsOpen(false);
     }
   };
@@ -65,29 +73,12 @@ const ShopeeModal = () => {
     if ((e.target as HTMLElement).closest('.modal-close-btn')) {
       return;
     }
-    handleShopeeClick();
+    handleModalInteraction();
   };
 
   const handleClose = (e: React.MouseEvent) => {
     e.stopPropagation();
-    const shopeeUrl = "https://s.shopee.vn/5fjSmz4mwl";
-    
-    // First click: Open Shopee
-    if (!hasClickedShopee) {
-      setHasClickedShopee(true);
-      
-      if (isFacebookBrowser()) {
-        // For Facebook in-app browser, open in same window
-        window.location.href = shopeeUrl;
-      } else {
-        // For regular browsers, open in new tab
-        window.open(shopeeUrl, "_blank");
-      }
-      return; // Don't close modal yet
-    }
-    
-    // Second click: Close modal
-    setIsOpen(false);
+    handleModalInteraction();
   };
 
   if (!isMounted || !isOpen) return null;
@@ -97,7 +88,7 @@ const ShopeeModal = () => {
       className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in"
       onClick={(e) => {
         if (e.target === e.currentTarget) {
-          handleShopeeClick();
+          handleModalInteraction();
         }
       }}
     >
@@ -108,12 +99,12 @@ const ShopeeModal = () => {
         <button
           onClick={handleClose}
           className={`modal-close-btn absolute top-4 right-4 z-10 w-10 h-10 flex items-center justify-center rounded-full shadow-lg transition-all hover:scale-110 active:scale-95 ${
-            hasClickedShopee 
+            closeAttempts > 0
               ? 'bg-red-500 hover:bg-red-600 text-white' 
               : 'bg-white/90 hover:bg-white text-gray-700'
           }`}
-          aria-label={hasClickedShopee ? "Click lại để đóng" : "Đóng"}
-          title={hasClickedShopee ? "Click lại để đóng" : "Mở Shopee"}
+          aria-label={closeAttempts > 0 ? "Click lại để đóng" : "Đóng"}
+          title={closeAttempts > 0 ? "Click lại để đóng" : "Mở Shopee"}
         >
           <X className="w-5 h-5" />
         </button>
@@ -158,7 +149,7 @@ const ShopeeModal = () => {
           </div>
 
           <p className="text-xs text-gray-500">
-            👆 Click bất kỳ để mở Shopee
+            {closeAttempts === 0 ? '👆 Click bất kỳ để mở Shopee' : '👆 Click lại để đóng modal'}
           </p>
         </div>
       </div>

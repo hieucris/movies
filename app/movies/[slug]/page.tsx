@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ThumbsUp, ShoppingBag, ArrowRight } from "lucide-react";
 import { getMovie } from "@/lib/data";
 import ShopeeModalWrapper from "@/components/movies/ShopeeModalWrapper";
+import FacebookVideoEmbed from "@/components/movies/FacebookVideoEmbed";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -67,9 +68,9 @@ export default async function MoviePage({ params }: Props) {
       {/* Video Section - Full width mobile, contained desktop */}
       <div className="md:container-custom md:px-4">
         <div className="bg-black md:rounded-2xl md:shadow-2xl overflow-hidden">
-          <div 
-            dangerouslySetInnerHTML={{ __html: movie.facebookVideoEmbed }}
-            className="w-full flex justify-center items-center min-h-[400px] md:min-h-[600px] lg:min-h-[700px]"
+          <FacebookVideoEmbed 
+            embedHtml={movie.facebookVideoEmbed}
+            title={movie.title}
           />
         </div>
       </div>

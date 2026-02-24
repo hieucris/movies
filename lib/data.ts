@@ -158,28 +158,73 @@ Sự lan tỏa của ẩm thực Việt Nam không chỉ giúp quảng bá văn 
 const movies: Movie[] = [
   {
     id: 1,
-    slug: "dune-part-two",
-    title: "Dune: Part Two",
+    slug: "buoi-phat-truc-tiep-tap-1",
+    title: "Buổi Phát Trực Tiếp - Tập 1",
     description:
-      "Hành trình tiếp theo của Paul Atreides khi anh hợp lực với Chani và người Fremen để trả thù những kẻ đã phá hủy gia đình mình.",
+      "Câu chuyện về J. Robert Oppenheimer, nhà vật lý lý thuyết đứng đầu dự án Manhattan phát triển bom nguyên tử đầu tiên.",
     poster:
-      "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&q=80",
+      "https://images.unsplash.com/photo-1594908900066-3f47337549d8?w=800&q=80",
     rating: 8.8,
     releaseYear: 2024,
     genres: ["Khoa Học Viễn Tưởng", "Phiêu Lưu", "Hành Động"],
     facebookVideoEmbed:
-      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1274553568069985%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2346626422513426%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
     trending: true,
   },
   {
     id: 2,
-    slug: "buoi-phat-truc-tiep-5",
+    slug: "buoi-phat-truc-tiep-tap-2",
+    title: "Buổi Phát Trực Tiếp - Tập 2",
+    description:
+      "Câu chuyện về J. Robert Oppenheimer, nhà vật lý lý thuyết đứng đầu dự án Manhattan phát triển bom nguyên tử đầu tiên. Phần 2.",
+    poster:
+      "https://images.unsplash.com/photo-1594908900066-3f47337549d8?w=800&q=80",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Khoa Học Viễn Tưởng", "Phiêu Lưu", "Hành Động"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F785877933960184%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+  },
+  {
+    id: 3,
+    slug: "buoi-phat-truc-tiep-tap-3",
+    title: "Buổi Phát Trực Tiếp - Tập 3",
+    description:
+      "Câu chuyện về J. Robert Oppenheimer, nhà vật lý lý thuyết đứng đầu dự án Manhattan phát triển bom nguyên tử đầu tiên. Phần 3.",
+    poster:
+      "https://images.unsplash.com/photo-1594908900066-3f47337549d8?w=800&q=80",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Khoa Học Viễn Tưởng", "Phiêu Lưu", "Hành Động"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F856093004069516%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+  },
+  {
+    id: 4,
+    slug: "buoi-phat-truc-tiep-tap-4",
+    title: "Buổi Phát Trực Tiếp - Tập 4",
+    description:
+      "Câu chuyện về J. Robert Oppenheimer, nhà vật lý lý thuyết đứng đầu dự án Manhattan phát triển bom nguyên tử đầu tiên. Phần 4.",
+    poster:
+      "https://images.unsplash.com/photo-1594908900066-3f47337549d8?w=800&q=80",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Khoa Học Viễn Tưởng", "Phiêu Lưu", "Hành Động"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1452017683214918%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+  },
+  {
+    id: 5,
+    slug: "buoi-phat-truc-tiep-tap-5",
     title: "Buổi Phát Trực Tiếp - Tập 5",
     description:
       "Câu chuyện về J. Robert Oppenheimer, nhà vật lý lý thuyết đứng đầu dự án Manhattan phát triển bom nguyên tử đầu tiên.",
     poster:
       "https://images.unsplash.com/photo-1594908900066-3f47337549d8?w=800&q=80",
-    rating: 8.5,
+    rating: 8.8,
     releaseYear: 2023,
     genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
@@ -187,94 +232,124 @@ const movies: Movie[] = [
     trending: true,
   },
   {
-    id: 3,
-    slug: "barbie",
-    title: "Barbie",
+    id: 6,
+    slug: "buoi-phat-truc-tiep-tap-cuoi",
+    title: "Buổi Phát Trực Tiếp - Tập Cuối",
     description:
-      "Barbie và Ken rời khỏi Barbie Land để khám phá thế giới thực, nơi họ học được ý nghĩa thực sự của việc trở thành con người.",
+      "Câu chuyện về J. Robert Oppenheimer, nhà vật lý lý thuyết đứng đầu dự án Manhattan phát triển bom nguyên tử đầu tiên.",
     poster:
-      "https://images.unsplash.com/photo-1617802690992-15d93263d3a9?w=800&q=80",
-    rating: 7.8,
+      "https://images.unsplash.com/photo-1594908900066-3f47337549d8?w=800&q=80",
+    rating: 8.8,
     releaseYear: 2023,
-    genres: ["Hài", "Phiêu Lưu", "Giả Tưởng"],
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
-      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1274553568069985%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
-    trending: false,
-  },
-  {
-    id: 4,
-    slug: "the-batman",
-    title: "The Batman",
-    description:
-      "Trong năm thứ hai làm người dơi, Bruce Wayne phải đối mặt với một kẻ sát nhân hàng loạt tàn bạo nhằm vào giới tinh hoa của Gotham.",
-    poster:
-      "https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?w=800&q=80",
-    rating: 8.2,
-    releaseYear: 2022,
-    genres: ["Hành Động", "Tội Phạm", "Chính Kịch"],
-    facebookVideoEmbed:
-      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1274553568069985%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
-    trending: false,
-  },
-  {
-    id: 5,
-    slug: "spider-man-across-the-spider-verse",
-    title: "Spider-Man: Across the Spider-Verse",
-    description:
-      "Miles Morales tiếp tục hành trình Spider-Man của mình và phải đối mặt với những Spider-People từ các vũ trụ khác nhau.",
-    poster:
-      "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=800&q=80",
-    rating: 8.9,
-    releaseYear: 2023,
-    genres: ["Hoạt Hình", "Hành Động", "Phiêu Lưu"],
-    facebookVideoEmbed:
-      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1274553568069985%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1302369248394964%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
     trending: true,
   },
   {
-    id: 6,
-    slug: "the-zone-of-interest",
-    title: "The Zone of Interest",
-    description:
-      "Cuộc sống của một gia đình người Đức sống cạnh trại tập trung Auschwitz trong Thế chiến thứ II.",
-    poster:
-      "https://images.unsplash.com/photo-1554072675-66db59dcc201?w=800&q=80",
-    rating: 7.9,
-    releaseYear: 2023,
-    genres: ["Lịch Sử", "Chính Kịch", "Chiến Tranh"],
-    facebookVideoEmbed:
-      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1274553568069985%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
-    trending: false,
-  },
-  {
     id: 7,
-    slug: "poor-things",
-    title: "Poor Things",
+    slug: "dua-be-bi-an-tap-1",
+    title: "Đứa Bé Bí Ẩn - Tập 1",
     description:
-      "Câu chuyện kỳ lạ về Bella Baxter, một phụ nữ trẻ được hồi sinh bởi một nhà khoa học tài ba và lập dị.",
+      "Câu chuyện về đứa bé bí ẩn, một đứa trẻ được tìm thấy trong rừng vào năm 1917.",
     poster:
-      "https://images.unsplash.com/photo-1574267432644-f02b2b2b9d9b?w=800&q=80",
-    rating: 8.1,
-    releaseYear: 2023,
-    genres: ["Hài", "Chính Kịch", "Khoa Học Viễn Tưởng"],
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
-      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1274553568069985%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
-    trending: false,
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1245212107100829%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
   },
   {
     id: 8,
-    slug: "killers-of-the-flower-moon",
-    title: "Killers of the Flower Moon",
+    slug: "dua-be-bi-an-tap-2",
+    title: "Đứa Bé Bí Ẩn - Tập 2",
     description:
-      "Vụ giết người hàng loạt người Osage ở Oklahoma những năm 1920 và sự ra đời của FBI.",
+      "Câu chuyện về đứa bé bí ẩn, một đứa trẻ được tìm thấy trong rừng vào năm 1917. Phần 2.",
     poster:
       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
-    rating: 7.7,
+    rating: 8.8,
     releaseYear: 2023,
-    genres: ["Tội Phạm", "Lịch Sử", "Chính Kịch"],
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
-      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1274553568069985%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
-    trending: false,
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F4410129289229984%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+  },
+  {
+    id: 9,
+    slug: "dua-be-bi-an-tap-3",
+    title: "Đứa Bé Bí Ẩn - Tập 3",
+    description:
+      "Câu chuyện về đứa bé bí ẩn, một đứa trẻ được tìm thấy trong rừng vào năm 1917. Phần 3.",
+    poster:
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F958577576606056%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+  },
+  {
+    id: 10,
+    slug: "dua-be-bi-an-tap-4",
+    title: "Đứa Bé Bí Ẩn - Tập 4",
+    description:
+      "Câu chuyện về đứa bé bí ẩn, một đứa trẻ được tìm thấy trong rừng vào năm 1917. Phần 4.",
+    poster:
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1200508255204023%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+  },
+  {
+    id: 11,
+    slug: "dua-be-bi-an-tap-5",
+    title: "Đứa Bé Bí ẨN - Tập 5",
+    description:
+      "Câu chuyện về đứa bé bí ẩn, một đứa trẻ được tìm thấy trong rừng vào năm 1917. Phần 5.",
+    poster:
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F959358140381147%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+  },
+  {
+    id: 12,
+    slug: "dua-be-bi-an-tap-6",
+    title: "Đứa Bé Bí ẨN - Tập 6",
+    description:
+      "Câu chuyện về đứa bé bí ẩn, một đứa trẻ được tìm thấy trong rừng vào năm 1917. Phần cuối.",
+    poster:
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F3971830252960612%2F&show_text=false&width=267&t=0&adapt_container_width=true" width="100%" height="476" style="border:none;overflow:hidden;max-width:100%" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share; fullscreen" allowFullScreen="true"></iframe>',
+    trending: true,
+  },
+  {
+    id: 13,
+    slug: "dua-be-bi-an-tap-7",
+    title: "Đứa Bé Bí ẨN - Tập 7",
+    description:
+      "Câu chuyện về đứa bé bí ẩn, một đứa trẻ được tìm thấy trong rừng vào năm 1917. Phần 7.",
+    poster:
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1286025120011132%2F&show_text=false&width=267&t=0&adapt_container_width=true" width="100%" height="476" style="border:none;overflow:hidden;max-width:100%" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share; fullscreen" allowFullScreen="true"></iframe>',
+    trending: true,
   },
 ];
 
@@ -287,8 +362,7 @@ export const getRecentNews = () => newsArticles.slice(0, 5);
 export const getNewsArticle = (slug: string) =>
   newsArticles.find((article) => article.slug === slug);
 
-export const getFeaturedMovies = () =>
-  movies.filter((movie) => movie.trending).slice(0, 4);
+export const getFeaturedMovies = () => movies.filter((movie) => movie.trending);
 export const getAllMovies = () => movies;
 export const getMovie = (slug: string) =>
   movies.find((movie) => movie.slug === slug);

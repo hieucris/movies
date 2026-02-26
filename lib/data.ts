@@ -381,6 +381,96 @@ const movies: Movie[] = [
     trending: true,
     seriesName: "Đứa Bé Bí Ẩn",
   },
+  {
+    id: 15,
+    slug: "dinh-menh-gia-toc-tap-1",
+    title: "Định Mệnh Gia Tộc - Tập 1",
+    description: "Câu chuyện về định mệnh gia tộc",
+    poster:
+      "https://static.elle.vn/img/JYw4mHVwDvazuwqb6_QgED8o_B7ctRBj5ogyv0rdAN0/rs:fit:0:0/min-height:300/plain/http://www.elle.vn/app/uploads/2025/06/14/672159/thu-quyen-nhat-mong-phim-trung-quoc-noi-bat-thang-6-2025.jpg@webp",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F909409468685287%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Định Mệnh Gia Tộc",
+  },
+  {
+    id: 16,
+    slug: "dinh-menh-gia-toc-tap-2",
+    title: "Định Mệnh Gia Tộc - Tập 2",
+    description: "Câu chuyện về định mệnh gia tộc",
+    poster:
+      "https://static.elle.vn/img/JYw4mHVwDvazuwqb6_QgED8o_B7ctRBj5ogyv0rdAN0/rs:fit:0:0/min-height:300/plain/http://www.elle.vn/app/uploads/2025/06/14/672159/thu-quyen-nhat-mong-phim-trung-quoc-noi-bat-thang-6-2025.jpg@webp",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F911938881224630%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Định Mệnh Gia Tộc",
+  },
+  {
+    id: 17,
+    slug: "dinh-menh-gia-toc-tap-3",
+    title: "Định Mệnh Gia Tộc - Tập 3",
+    description: "Câu chuyện về định mệnh gia tộc",
+    poster:
+      "https://static.elle.vn/img/JYw4mHVwDvazuwqb6_QgED8o_B7ctRBj5ogyv0rdAN0/rs:fit:0:0/min-height:300/plain/http://www.elle.vn/app/uploads/2025/06/14/672159/thu-quyen-nhat-mong-phim-trung-quoc-noi-bat-thang-6-2025.jpg@webp",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2146306206108462%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Định Mệnh Gia Tộc",
+  },
+  {
+    id: 18,
+    slug: "dinh-menh-gia-toc-tap-4",
+    title: "Định Mệnh Gia Tộc - Tập 4",
+    description: "Câu chuyện về định mệnh gia tộc",
+    poster:
+      "https://static.elle.vn/img/JYw4mHVwDvazuwqb6_QgED8o_B7ctRBj5ogyv0rdAN0/rs:fit:0:0/min-height:300/plain/http://www.elle.vn/app/uploads/2025/06/14/672159/thu-quyen-nhat-mong-phim-trung-quoc-noi-bat-thang-6-2025.jpg@webp",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1242051354021680%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Định Mệnh Gia Tộc",
+  },
+  {
+    id: 19,
+    slug: "dinh-menh-gia-toc-tap-5",
+    title: "Định Mệnh Gia Tộc - Tập 5",
+    description: "Câu chuyện về định mệnh gia tộc",
+    poster:
+      "https://static.elle.vn/img/JYw4mHVwDvazuwqb6_QgED8o_B7ctRBj5ogyv0rdAN0/rs:fit:0:0/min-height:300/plain/http://www.elle.vn/app/uploads/2025/06/14/672159/thu-quyen-nhat-mong-phim-trung-quoc-noi-bat-thang-6-2025.jpg@webp",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2357247731441055%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Định Mệnh Gia Tộc",
+  },
+  {
+    id: 20,
+    slug: "dinh-menh-gia-toc-tap-cuoi",
+    title: "Định Mệnh Gia Tộc - Tập Cuối",
+    description: "Câu chuyện về định mệnh gia tộc",
+    poster:
+      "https://static.elle.vn/img/JYw4mHVwDvazuwqb6_QgED8o_B7ctRBj5ogyv0rdAN0/rs:fit:0:0/min-height:300/plain/http://www.elle.vn/app/uploads/2025/06/14/672159/thu-quyen-nhat-mong-phim-trung-quoc-noi-bat-thang-6-2025.jpg@webp",
+    rating: 8.8,
+    releaseYear: 2024,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1445222367614004%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Định Mệnh Gia Tộc",
+  },
 ];
 
 export const getFeaturedNews = () =>

@@ -166,7 +166,7 @@ const movies: Movie[] = [
     poster:
       "https://images.unsplash.com/photo-1594908900066-3f47337549d8?w=800&q=80",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Khoa Học Viễn Tưởng", "Phiêu Lưu", "Hành Động"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2346626422513426%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
@@ -182,7 +182,7 @@ const movies: Movie[] = [
     poster:
       "https://images.unsplash.com/photo-1594908900066-3f47337549d8?w=800&q=80",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Khoa Học Viễn Tưởng", "Phiêu Lưu", "Hành Động"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F785877933960184%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
@@ -198,7 +198,7 @@ const movies: Movie[] = [
     poster:
       "https://images.unsplash.com/photo-1594908900066-3f47337549d8?w=800&q=80",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Khoa Học Viễn Tưởng", "Phiêu Lưu", "Hành Động"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F856093004069516%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
@@ -214,7 +214,7 @@ const movies: Movie[] = [
     poster:
       "https://images.unsplash.com/photo-1594908900066-3f47337549d8?w=800&q=80",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Khoa Học Viễn Tưởng", "Phiêu Lưu", "Hành Động"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1452017683214918%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
@@ -262,7 +262,7 @@ const movies: Movie[] = [
     poster:
       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1245212107100829%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
@@ -294,7 +294,7 @@ const movies: Movie[] = [
     poster:
       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F958577576606056%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
@@ -310,7 +310,7 @@ const movies: Movie[] = [
     poster:
       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1200508255204023%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
@@ -326,7 +326,7 @@ const movies: Movie[] = [
     poster:
       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F959358140381147%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
@@ -342,7 +342,7 @@ const movies: Movie[] = [
     poster:
       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F3971830252960612%2F&show_text=false&width=267&t=0&adapt_container_width=true" width="100%" height="476" style="border:none;overflow:hidden;max-width:100%" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share; fullscreen" allowFullScreen="true"></iframe>',
@@ -358,7 +358,7 @@ const movies: Movie[] = [
     poster:
       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1286025120011132%2F&show_text=false&width=267&t=0&adapt_container_width=true" width="100%" height="476" style="border:none;overflow:hidden;max-width:100%" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share; fullscreen" allowFullScreen="true"></iframe>',
@@ -374,7 +374,7 @@ const movies: Movie[] = [
     poster:
       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1282376020529738%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
@@ -389,7 +389,7 @@ const movies: Movie[] = [
     poster:
       "https://static.elle.vn/img/JYw4mHVwDvazuwqb6_QgED8o_B7ctRBj5ogyv0rdAN0/rs:fit:0:0/min-height:300/plain/http://www.elle.vn/app/uploads/2025/06/14/672159/thu-quyen-nhat-mong-phim-trung-quoc-noi-bat-thang-6-2025.jpg@webp",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F909409468685287%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
@@ -404,7 +404,7 @@ const movies: Movie[] = [
     poster:
       "https://static.elle.vn/img/JYw4mHVwDvazuwqb6_QgED8o_B7ctRBj5ogyv0rdAN0/rs:fit:0:0/min-height:300/plain/http://www.elle.vn/app/uploads/2025/06/14/672159/thu-quyen-nhat-mong-phim-trung-quoc-noi-bat-thang-6-2025.jpg@webp",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F911938881224630%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
@@ -419,7 +419,7 @@ const movies: Movie[] = [
     poster:
       "https://static.elle.vn/img/JYw4mHVwDvazuwqb6_QgED8o_B7ctRBj5ogyv0rdAN0/rs:fit:0:0/min-height:300/plain/http://www.elle.vn/app/uploads/2025/06/14/672159/thu-quyen-nhat-mong-phim-trung-quoc-noi-bat-thang-6-2025.jpg@webp",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2146306206108462%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
@@ -434,7 +434,7 @@ const movies: Movie[] = [
     poster:
       "https://static.elle.vn/img/JYw4mHVwDvazuwqb6_QgED8o_B7ctRBj5ogyv0rdAN0/rs:fit:0:0/min-height:300/plain/http://www.elle.vn/app/uploads/2025/06/14/672159/thu-quyen-nhat-mong-phim-trung-quoc-noi-bat-thang-6-2025.jpg@webp",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1242051354021680%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
@@ -449,7 +449,7 @@ const movies: Movie[] = [
     poster:
       "https://static.elle.vn/img/JYw4mHVwDvazuwqb6_QgED8o_B7ctRBj5ogyv0rdAN0/rs:fit:0:0/min-height:300/plain/http://www.elle.vn/app/uploads/2025/06/14/672159/thu-quyen-nhat-mong-phim-trung-quoc-noi-bat-thang-6-2025.jpg@webp",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2357247731441055%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
@@ -464,12 +464,320 @@ const movies: Movie[] = [
     poster:
       "https://static.elle.vn/img/JYw4mHVwDvazuwqb6_QgED8o_B7ctRBj5ogyv0rdAN0/rs:fit:0:0/min-height:300/plain/http://www.elle.vn/app/uploads/2025/06/14/672159/thu-quyen-nhat-mong-phim-trung-quoc-noi-bat-thang-6-2025.jpg@webp",
     rating: 8.8,
-    releaseYear: 2024,
+    releaseYear: 2026,
     genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
     facebookVideoEmbed:
       '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1445222367614004%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
     trending: true,
     seriesName: "Định Mệnh Gia Tộc",
+  },
+  {
+    id: 21,
+    slug: "hon-nhan-dinh-menh-tap-1",
+    title: "Hôn Nhân Định Mệnh - Tập 1",
+    description: "Câu chuyện về hôn nhân định mệnh",
+    poster: "/images/movies/anh-1.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1896282691256565%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Hôn nhân định mệnh",
+  },
+  {
+    id: 22,
+    slug: "hon-nhan-dinh-menh-tap-2",
+    title: "Hôn Nhân Định Mệnh - Tập 2",
+    description: "Câu chuyện về hôn nhân định mệnh",
+    poster: "/images/movies/anh-1.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1493811275414018%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Hôn nhân định mệnh",
+  },
+  {
+    id: 23,
+    slug: "hon-nhan-dinh-menh-tap-3",
+    title: "Hôn Nhân Định Mệnh - Tập 3",
+    description: "Câu chuyện về hôn nhân định mệnh",
+    poster: "/images/movies/anh-1.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1257029416601816%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Hôn nhân định mệnh",
+  },
+  {
+    id: 24,
+    slug: "hon-nhan-dinh-menh-tap-4",
+    title: "Hôn Nhân Định Mệnh - Tập 4",
+    description: "Câu chuyện về hôn nhân định mệnh",
+    poster: "/images/movies/anh-1.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F3308939999268680%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Hôn nhân định mệnh",
+  },
+  {
+    id: 25,
+    slug: "hon-nhan-dinh-menh-tap-5",
+    title: "Hôn Nhân Định Mệnh - Tập 5",
+    description: "Câu chuyện về hôn nhân định mệnh",
+    poster: "/images/movies/anh-1.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F920576617050201%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Hôn nhân định mệnh",
+  },
+  {
+    id: 26,
+    slug: "hon-nhan-dinh-menh-tap-6",
+    title: "Hôn Nhân Định Mệnh - Tập 6",
+    description: "Câu chuyện về hôn nhân định mệnh",
+    poster: "/images/movies/anh-1.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2306372683188257%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Hôn nhân định mệnh",
+  },
+  {
+    id: 27,
+    slug: "hon-nhan-dinh-menh-tap-7",
+    title: "Hôn Nhân Định Mệnh - Tập 7",
+    description: "Câu chuyện về hôn nhân định mệnh",
+    poster: "/images/movies/anh-1.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F779270838100379%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Hôn nhân định mệnh",
+  },
+  {
+    id: 28,
+    slug: "hon-nhan-dinh-menh-tap-8",
+    title: "Hôn Nhân Định Mệnh - Tập 8",
+    description: "Câu chuyện về hôn nhân định mệnh",
+    poster: "/images/movies/anh-1.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F897116539980464%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Hôn nhân định mệnh",
+  },
+  {
+    id: 29,
+    slug: "hon-nhan-dinh-menh-tap-9",
+    title: "Hôn Nhân Định Mệnh - Tập 9",
+    description: "Câu chuyện về hôn nhân định mệnh",
+    poster: "/images/movies/anh-1.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1455836439579773%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Hôn nhân định mệnh",
+  },
+  {
+    id: 30,
+    slug: "hon-nhan-dinh-menh-tap-10",
+    title: "Hôn Nhân Định Mệnh - Tập 10",
+    description: "Câu chuyện về hôn nhân định mệnh",
+    poster: "/images/movies/anh-1.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1418912570036702%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Hôn nhân định mệnh",
+  },
+  {
+    id: 31,
+    slug: "hon-nhan-dinh-menh-tap-11",
+    title: "Hôn Nhân Định Mệnh - Tập 11",
+    description: "Câu chuyện về hôn nhân định mệnh",
+    poster: "/images/movies/anh-1.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F26938022835815828%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Hôn nhân định mệnh",
+  },
+  {
+    id: 32,
+    slug: "hon-nhan-dinh-menh-tap-12",
+    title: "Hôn Nhân Định Mệnh - Tập 12",
+    description: "Câu chuyện về hôn nhân định mệnh",
+    poster: "/images/movies/anh-1.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1259517959487403%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Hôn nhân định mệnh",
+  },
+  {
+    id: 33,
+    slug: "hon-nhan-dinh-menh-tap-cuoi",
+    title: "Hôn Nhân Định Mệnh - Tập Cuối",
+    description: "Câu chuyện về hôn nhân định mệnh",
+    poster: "/images/movies/anh-1.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1645976033418265%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Hôn nhân định mệnh",
+  },
+  {
+    id: 34,
+    slug: "ru-bo-qua-khuc-tap-1",
+    title: "Rũ Bỏ Quá Khứ - Tập 1",
+    description: "Câu chuyện về rũ bỏ quá khứ",
+    poster: "/images/movies/anh-2.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F849431121455662%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Rũ bỏ quá khứ",
+  },
+  {
+    id: 35,
+    slug: "ru-bo-qua-khuc-tap-2",
+    title: "Rũ Bỏ Quá Khứ - Tập 2",
+    description: "Câu chuyện về rũ bỏ quá khứ",
+    poster: "/images/movies/anh-2.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1406752927864244%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Rũ bỏ quá khứ",
+  },
+  {
+    id: 36,
+    slug: "ru-bo-qua-khuc-tap-3",
+    title: "Rũ Bỏ Quá Khứ - Tập 3",
+    description: "Câu chuyện về rũ bỏ quá khứ",
+    poster: "/images/movies/anh-2.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F733087526407557%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Rũ bỏ quá khứ",
+  },
+  {
+    id: 37,
+    slug: "ru-bo-qua-khuc-tap-4",
+    title: "Rũ Bỏ Quá Khứ - Tập 4",
+    description: "Câu chuyện về rũ bỏ quá khứ",
+    poster: "/images/movies/anh-2.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1446056510208352%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Rũ bỏ quá khứ",
+  },
+  {
+    id: 38,
+    slug: "ru-bo-qua-khuc-tap-5",
+    title: "Rũ Bỏ Quá Khứ - Tập 5",
+    description: "Câu chuyện về rũ bỏ quá khứ",
+    poster: "/images/movies/anh-2.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F863642330038373%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Rũ bỏ quá khứ",
+  },
+  {
+    id: 39,
+    slug: "ru-bo-qua-khuc-tap-6",
+    title: "Rũ Bỏ Quá Khứ - Tập 6",
+    description: "Câu chuyện về rũ bỏ quá khứ",
+    poster: "/images/movies/anh-2.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1281441777222559%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Rũ bỏ quá khứ",
+  },
+  {
+    id: 40,
+    slug: "ru-bo-qua-khuc-tap-7",
+    title: "Rũ Bỏ Quá Khứ - Tập 7",
+    description: "Câu chuyện về rũ bỏ quá khứ",
+    poster: "/images/movies/anh-2.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1555801892350815%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Rũ bỏ quá khứ",
+  },
+  {
+    id: 41,
+    slug: "ru-bo-qua-khuc-tap-8",
+    title: "Rũ Bỏ Quá Khứ - Tập 8",
+    description: "Câu chuyện về rũ bỏ quá khứ",
+    poster: "/images/movies/anh-2.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F26923847110551145%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Rũ bỏ quá khứ",
+  },
+  {
+    id: 42,
+    slug: "ru-bo-qua-khuc-tap-cuoi",
+    title: "Rũ Bỏ Quá Khứ - Tập Cuối",
+    description: "Câu chuyện về rũ bỏ quá khứ",
+    poster: "/images/movies/anh-2.png",
+    rating: 8.8,
+    releaseYear: 2026,
+    genres: ["Tiểu Sử", "Lịch Sử", "Chính Kịch"],
+    facebookVideoEmbed:
+      '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1450751726465462%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+    trending: true,
+    seriesName: "Rũ bỏ quá khứ",
   },
 ];
 
